@@ -1,0 +1,113 @@
+.c-m{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+.icon{
+    font-size:large;
+}
+.details{
+    border: #FCAF17 3px solid;
+}
+.form-main-con{
+    overflow: hidden;
+}
+.form-main-inner-con h2{
+    color: var(--primary-color);
+}
+.contact-information{
+    background: var(--light-purple-color);
+    border-radius: 28px;
+    padding: 70px 40px 50px;
+}
+.contact-information li figure{
+    width: 60px;
+    height: 60px;
+    background: var(--accent);
+    border-radius: 50%;
+    position: absolute;
+}
+.contact-information-content {
+    margin-left: 76px;
+}
+.contact-information-content h5{
+    font-size: 20px;
+    color: var(--white-color);
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.contact-information-content p{
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--white-color);
+    font-family: 'Lato', sans-serif;
+}
+.contact-information ul li{
+    margin-bottom: 32px;
+}
+.contact-information ul li img{
+    transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+}
+.contact-information ul li:hover img{
+    transform: translateY(-8px);
+}
+.contact-form input,
+.contact-form textarea{
+    background: #fefeff;
+    border: none;
+    box-shadow: 0 0 85px 0 #e9eefc;
+    font-size: 16px;
+    color: var(--text-color);
+    padding: 17px 30px;
+    border-radius: 30px;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 23px;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder{
+    color: var(--text-color);
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+.contact-form input:focus,
+.contact-form textarea:focus{
+    outline: 1px solid #FCAF17;
+    box-shadow: 0 0 85px 0 #d9e3ff;
+}
+.contact-form textarea{
+    height: 148px;
+    resize: none;
+    margin-bottom: 29px;
+}
+.contact-form button{
+    border: none;
+    padding: 19px 64px 18px;
+    background: var(--accent);
+    color: var(--white-color);
+    font-size: 20px;
+    line-height: 22px;
+    border-radius: 36px;
+    cursor: pointer;
+    box-shadow: 0 0 85px 0 #e9eefc;
+    transition-duration: .3s;
+    transition-property: transform;
+    transition-timing-function: ease-out;
+    border: 1px solid transparent;
+}
+.contact-form button:hover{
+    border-color: #FCAF17;
+    background: var(--light-purple-color);
+    transform: translateY(-8px);
+}
+.form-main-inner-con:after{
+    content: "";
+    width: 35px;
+    height: 38px;
+    position: absolute;
+    bottom: 140px;
+    right: -116px;
+    animation: mover 1s infinite alternate;
+    -webkit-animation: mover 1s infinite alternate;
+}

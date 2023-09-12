@@ -1,0 +1,60 @@
+/* ================[رنگ ]================ */
+/*زرد #FCAF17 */
+
+/* ================[نوبار]================ */
+.icon{
+  color: #FCAF17;
+  font-size: 30px;
+}
+.nav-title{
+  color: white;
+  font-size: large;
+}
+.nav-title:hover{
+  color: #FCAF17;
+}
+.nav-style{
+  border-top: #FCAF17 2px solid;
+  border-bottom: #FCAF17 2px solid;
+  background-color: black;
+}
+/* ================[اسم]================ */
+.dynamic-txts{
+  padding-top: 10px;
+  height: 50px;
+  overflow: hidden;
+  margin: 0;
+  display: inline-block;
+}
+.dynamic-txts li{
+  list-style: none;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li h1{
+  color: #FCAF17;
+  font-size: 29px;
+  position: relative;
+}
+.dynamic-txts li h1::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 89%;
+  width: 100%;
+  background: black;
+  border-left: 2px solid var(--accent);
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left: 0;
+  }
+}

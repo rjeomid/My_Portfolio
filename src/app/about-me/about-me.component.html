@@ -1,0 +1,157 @@
+<div class="a-m">
+    <section class="w-100 float-left skill-con padding-top padding-bottom position-relative" id="about-con">
+        <div class="container">
+           <div class="skill-inner-con position-relative">
+              <div class="row">
+                 <div class="col-lg-6 order-lg-0 order-2">
+                    <div class="skill-left-con text-center wow slideInLeft" >
+                       <div class="row service-skill-sttaf-con">
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                             <div class="skill-left-item-con">
+                                <div class="circle-wrap firstPercentage">
+                                   <div class="circle">
+                                      <div class="mask full">
+                                         <div class="fill"></div>
+                                      </div>
+                                      <div class="mask half">
+                                         <div class="fill"></div>
+                                      </div>
+                                      <div class="inside-circle">
+                                         <div class="service-skill-sttaf-item-con">
+                                            <div class="service-skill-sttaf-item-title service-skill-sttaf-item1-con d-flex align-items-center justify-content-center">
+                                               <span class="static-txt2">PICTURE</span>
+                                            </div>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div>
+                                <div class="service-skill-sttaf-item-heading">
+                                   <p class="mb-0">MY IMAGE</p>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                             <div class="skill-left-item-con">
+                                <div class="circle-wrap secondPercentage">
+                                   <div class="circle">
+                                      <div class="mask full">
+                                         <div class="fill"></div>
+                                      </div>
+                                      <div class="mask half">
+                                         <div class="fill"></div>
+                                      </div>
+                                      <div class="inside-circle">
+                                         <div class="service-skill-sttaf-item-con">
+                                            <div class="service-skill-sttaf-item-title service-skill-sttaf-item2-con text-center d-flex align-items-center justify-content-center">
+                                               <h4 class=" mb-0 text-center count">80</h4>
+                                               <span class=" static-txt2">%</span>
+                                            </div>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div>
+                                <div class="service-skill-sttaf-item-heading">
+                                   <p class="mb-0">HTML & CSS</p>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                       <div class="row service-skill-sttaf-con">
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+                             <div class="skill-left-item-con">
+                                <div class="circle-wrap thirdPercentage">
+                                   <div class="circle">
+                                      <div class="mask full">
+                                         <div class="fill"></div>
+                                      </div>
+                                      <div class="mask half">
+                                         <div class="fill"></div>
+                                      </div>
+                                      <div class="inside-circle">
+                                         <div class="service-skill-sttaf-item-con">
+                                            <div class="service-skill-sttaf-item-title service-skill-sttaf-item1-con d-flex align-items-center justify-content-center">
+                                               <h4 class="d-table-cell align-middle mb-0 text-center count">60</h4>
+                                               <span class="static-txt2">%</span>
+                                            </div>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div>
+                                <div class="service-skill-sttaf-item-heading">
+                                   <p class="mb-0">Angular</p>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="col-lg-6 col-md-6 col-sm-6 col-12 ">
+                             <div class="skill-left-item-con">
+                                <div class="circle-wrap fourPercentage">
+                                   <div class="circle">
+                                      <div class="mask full">
+                                         <div class="fill"></div>
+                                      </div>
+                                      <div class="mask half">
+                                         <div class="fill"></div>
+                                      </div>
+                                      <div class="inside-circle">
+                                         <div class="service-skill-sttaf-item-con">
+                                            <div class="service-skill-sttaf-item-title service-skill-sttaf-item2-con text-center d-flex align-items-center justify-content-center">
+                                               <h4 class=" mb-0 text-center count">50</h4>
+                                               <span class=" static-txt2">%</span>
+                                            </div>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div>
+                                <div class="service-skill-sttaf-item-heading">
+                                   <p class="mb-0">TypeScrypt</p>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+                 <div class="col-lg-6 d-flex align-items-center">
+                    <div class="skill-right-con wow slideInRight" >
+                       <h6 class="a-m-t" *ngIf="!isFa">About Me</h6>
+                       <h6 class="a-m-t" *ngIf="isFa">درباره من</h6>
+                       <h2 *ngIf="!isFa">
+                          OMID RAJAEI
+                       </h2>
+                       <h2 *ngIf="isFa">
+                        امید رجایی
+                       </h2>
+                       <p *ngIf="!isFa">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repelle
+                        ndus enim sequi voluptas reiciendis rem fugiat, a voluptatibus i
+                        mpedit cupiditate recusandae nobis provident eum, amet molestias
+                         facere error. Ab, natus hic?
+                       </p>
+                       <p *ngIf="isFa">لورم ایز اپیزوم و غیره</p>
+                       <br>
+                       <br>
+                       <br>
+                       <br>
+                       <button class="a-m-btn1 hvr-outline-out" type="button" (click)="changeLang(true)">
+                        Persian
+                       </button>
+                       <button class="a-m-btn2 hvr-outline-out" type="button" (click)="changeLang(false)">
+                          English
+                       </button>                                           
+                       <!-- <section class="buttons-wrapper" >
+                          <div class="switch-l">
+                             <span>Language :</span>
+                             <br>
+                             <label class="toggler-wrapper style-20">
+                                <input type="checkbox" >
+                                <div class="toggler-slider">
+                                   <div class="toggler-knob"></div>
+                            </div>
+                          </label>
+                        </div>
+                      </section> -->
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+</div>
